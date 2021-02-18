@@ -54,9 +54,10 @@ body{
 }
 
 .righttop div{
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 2px;
+    margin-right: 4px;
 }
+
 .righttop a:hover{
     text-decoration: none;
 }
@@ -72,4 +73,9 @@ h4{
     color: rgb(54, 134, 152);
 }
 
+@media (max-width: 970px){
+    .righttop{
+        padding: 0;
+    }
+}
 
